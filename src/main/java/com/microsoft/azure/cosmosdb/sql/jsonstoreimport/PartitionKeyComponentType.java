@@ -1,0 +1,21 @@
+package com.microsoft.azure.cosmosdb.sql.jsonstoreimport;
+
+public enum PartitionKeyComponentType {
+    UNDEFINED(0x0),
+    NULL(0x1),
+    FALSE(0x2),
+    TRUE(0x3),
+    MINNUMBER(0x4),
+    NUMBER(0x5),
+    MAXNUMBER(0x6),
+    MINSTRING(0x7),
+    STRING(0x8),
+    MAXSTRING(0x9),
+    INFINITY(0xFF);
+
+    public final int type;
+    PartitionKeyComponentType(int type) 
+    {
+        this.type = type;
+    }
+}
