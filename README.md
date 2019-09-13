@@ -1,3 +1,13 @@
+---
+page_type: sample
+languages:
+- java
+products:
+- azure
+description: "This tool provides the capability to bulk import data from Azure data lake or Azure blob storage into CosmosDB."
+urlFragment: azure-cosmosdb-bulkingestion
+---
+
 # Cosmos DB Tool for importing data from Azure Data Lake Store and Azure Blobs
 This tool provides the capability to bulk import data from Azure data lake or Azure blob storage into CosmosDB. You should use this tool to import data size larger than 500GB. It maximizes the RU utilization in your CosmosDB collection, providing better performance than a traditional Azure data factory pipeline. Furthermore, if you can't exhaust all RU's with a single instance of the tool, you can run multiple instances on different VM's. At that point, the rate of ingestion will be only limited by the throuhgput you have provisioned for the collection. The tool is equipped to handle syncing in a multi instance configuration to avoid duplication of data.
 
