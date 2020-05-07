@@ -40,7 +40,6 @@ public class AzureBlobClientExtension {
 
   private static final Logger logger = Logger.getLogger(AzureBlobClientExtension.class);
   private static BlobServiceClient blobServiceClient;
-  // private static CloudBlobClient cloudBlobClient;
   private static BlobContainerClient blobContainerClient;
 
   public static List<String> getJsonDocs(String location) throws URISyntaxException, IOException, InvalidKeyException {
