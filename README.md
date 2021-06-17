@@ -26,7 +26,7 @@ This tool provides the capability to bulk import data from Azure data lake or Az
    b. Standard collection for distributing load across multiple workers and for storing the migration status.
 
 > [!NOTE]
-> Only account creation is mandatory, rest you can provide in the settings file, tool generates the collections if they don't exist. For help reach out cosmosdbasks@microsoft.com
+> Only account creation is mandatory, rest you can provide in the settings file, tool generates the collections if they don't exist. For help reach out askcosmosdb@microsoft.com
  ​
 
 ## Tool Setup:
